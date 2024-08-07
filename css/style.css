@@ -1,0 +1,596 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.navbar-brand:hover {
+    color: #fff;
+}
+
+button a:hover {
+    text-decoration: none;
+}
+
+body.home-page-body {
+    background: #fffcdf !important;
+}
+
+.btn-md.primary-button.primary-button {
+    background: #282828;
+    color: #fff;
+    border-radius: 45px;
+    font-size: 13px;
+}
+
+nav.navbar.navbar-expand-lg {
+    position: absolute !important;
+    width: 100%;
+    padding: 0 4% 0 3%;
+}
+
+input.form-control.navbar-form {
+    width: 428px;
+    border-radius: 44px;
+    border: none;
+    position: relative;
+    padding-left: 11%;
+}
+
+a.navbar-brand {
+    color: #fff;
+    font-family: "Sacramento", cursive;
+    font-size: 27px;
+    margin-left: 0;
+}
+
+.navbar-brand img {
+    max-width: 35%;
+}
+
+img.img-fluid.navbar-icons {
+    width: 22px;
+    margin: 0px 13px;
+}
+
+img.img-fluid.navbar-icons.wishlist {
+    margin-top: 13px;
+}
+
+img.img-fluid.navbar-icons.user-icon {
+    margin-left: 37px;
+}
+
+.form-search-icon {
+    position: absolute;
+    top: 8px;
+    width: 25px;
+    left: 9px;
+}
+
+.navbar-form {
+    position: relative;
+}
+
+
+/*Banner block starts here*/
+
+.banner-block {
+    background: url("../assets/banner-background.svg");
+    background-position: bottom;
+    background-size: cover;
+    padding: 12% 6% 2% 14%;
+}
+
+.banner-block h2 {
+    color: #fff;
+    font-size: 75px;
+}
+
+span.banner-highlight {
+    color: #fff172;
+    font-weight: 500;
+}
+
+.banner-links-container {
+    margin-top: 9%;
+    margin-left: 8%;
+}
+
+.banner-links-container span a {
+    color: #fff;
+    margin-right: 28px;
+}
+
+.banner-offer-container {
+    background: #fff;
+}
+
+.secondary-heading {
+    margin-bottom: 2%;
+    font-weight: 400;
+}
+
+.banner-sale-container.bg-white.p-1 {
+    width: 50%;
+    margin-left: 28%;
+    border-radius: 8px;
+    box-shadow: 0px 3px 6px 1px #00000029;
+}
+
+.sale-banner {
+    background: #c80000;
+    padding: 5px;
+    color: #fff;
+}
+
+.sale-offer {
+    float: right;
+    margin-right: 12%;
+    font-size: 14px;
+    margin-top: 6px;
+}
+
+.sale-banner-time {
+    padding: 5% 8%;
+}
+
+span.sale-text.mt-3 {
+    font-size: 22px;
+    margin-left: 8%;
+}
+
+span.time-block {
+    background: black;
+    color: #fff27a;
+    padding: 4px;
+    border-radius: 9px;
+}
+
+span.sale-duration-text {
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.sale-direct-link {
+    text-align: center;
+    margin-top: 6%;
+}
+
+a.sale-banner-link {
+    color: #000;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+p.cat-text {
+    font-size: 54px;
+    margin-top: 8%;
+}
+
+section.shooping-cat-items-container {
+    margin-top: 6%;
+}
+
+.shop-more-button {
+    position: absolute;
+    top: 43%;
+    right: -66px;
+}
+
+img.img-fluid.shopping-cart-item-image {
+    max-width: 85%;
+}
+
+h2.text-center.women-container-heading {
+    margin-top: -19px;
+    font-size: 40px;
+    margin-bottom: 2%;
+    font-family: "Sacramento", cursive;
+    font-weight: 700;
+}
+
+.button-container {
+    margin-top: 2%;
+}
+
+.women-item-container {
+    padding-bottom: 2%;
+}
+
+span.item-price {
+    position: absolute;
+    z-index: 1;
+    left: 6px;
+    background: #fff16b;
+    top: 4px;
+    font-size: 11px;
+    padding: 5px 10px;
+    font-weight: 700;
+}
+
+section.shooping-cat-items-container.men-container {
+    margin-top: 3%;
+}
+
+
+/*Banner block  ends here*/
+
+
+/* shopmore secton css starts here */
+
+.shop-more-redirection-section {
+    background: #ffe600;
+    margin-top: 3%;
+    padding-bottom: 1.5%;
+}
+
+img.img-fluid.shop-more-image-one {
+    max-width: 79%;
+    margin: 0 auto;
+    margin-top: -22px;
+    margin-left: 9%;
+}
+
+span.shop-more-highlight {
+    font-family: "Sacramento", cursive;
+}
+
+h2.shop-more-text {
+    font-size: 56px;
+}
+
+.shop-more-text-container {
+    margin-top: 8%;
+    margin-left: 7%;
+}
+
+.shop-more-redirection-button {
+    color: black !important;
+    font-weight: 500 !important;
+    font-size: 15px !important;
+    margin-top: 3%;
+}
+
+img.img-fluid.shop-more-image-two {
+    position: absolute;
+    bottom: -36px;
+    right: 0;
+}
+
+
+/* shopmore secton css ends here */
+
+
+/* email subscribe section starts here */
+
+section.email-subscribe-section {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    /* color: #494949; */
+}
+
+.emain-inner-container.text-center h2 {
+    color: #494949;
+    font-size: 22px;
+}
+
+.form-container {
+    max-width: 46%;
+    margin: auto;
+    position: relative;
+    margin-top: 3%;
+}
+
+input.form-control.email-input {
+    height: 48px;
+    border-radius: 46px;
+}
+
+button.btn.btn-lg.subscribe-button {
+    background: #ffe600;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    border-radius: 45px;
+}
+
+.footer-inner-container {
+    background: #1d1d1d;
+    padding: 1% 2% 10% 2%;
+}
+
+span.footer-logo-text {
+    color: #ffffff;
+    font-size: 34px;
+    font-family: "Sacramento", cursive;
+}
+
+a.footr-link {
+    color: #fff;
+    margin-left: 3%;
+}
+
+.footer-link-container {
+    margin-top: 3%;
+}
+
+
+/* email subscribe section ends here */
+
+
+/* category view page css starts here */
+
+nav.navbar.category-view-page.navbar-expand-lg {
+    position: relative !important;
+    background: #1d1d1d;
+}
+
+.category-page-banner-block {
+    background-image: url("../assets/category-view-images/category-banner-image.png");
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+.category-page-banner-content {
+    padding: 4% 0% 17% 55%;
+}
+
+.category-page-banner-content p {
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.navigation-path {
+    margin-left: 40px;
+    margin-top: 28px;
+    font-size: 17px;
+}
+
+.list-group-item {
+    cursor: pointer;
+    text-transform: capitalize;
+    padding: 0;
+    border: 0px;
+    border-radius: 0px;
+}
+
+li.filter-item:after {
+    content: "\f078";
+    /* fa-chevron-down */
+    font-family: 'FontAwesome';
+    position: absolute;
+    right: 0;
+    padding-right: 15px;
+    top: 15px;
+    color: #000;
+    font-size: 14px;
+}
+
+li[aria-expanded="true"]:after {
+    content: "\f077";
+    /* fa-chevron-up */
+}
+
+.filter-block li.list-group-item {
+    border: none;
+}
+
+.accordion.filter-block {
+    background: #fff;
+    margin-top: 36px;
+    padding-bottom: 1%;
+    max-width: 90%;
+}
+
+p.filter-heading {
+    font-size: 17px;
+}
+
+p.filter-types {
+    margin-bottom: 0;
+    padding-top: 5px;
+    padding-left: 12%;
+    font-size: 14px;
+    position: relative;
+}
+
+input.filter-checkbox {
+    position: absolute;
+    top: 10px;
+    right: 34%;
+}
+
+div#sort-by {
+    padding-left: 14%;
+    /* padding-top: 1px; */
+    margin-bottom: 10%;
+}
+
+button.btn.btn-md.rounded-pill {
+    border: 1px solid #707070;
+    padding: 4px 22px;
+    font-size: 13px;
+}
+
+.fliter-apply-buttons-block {
+    margin: 12% 0 12% 4%;
+}
+
+.category-view-products.shopping-item-container.position-relative {
+    margin-top: 14%;
+}
+
+p.category-view-products-title.mb-0 {
+    font-size: 20px;
+    color: #2C2C2C;
+}
+
+span.category-view-products-description {
+    color: #7C7C7C;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+p.category-view-products-title.mb-0 {
+    font-size: 20px;
+    color: #2C2C2C;
+    font-weight: 500;
+}
+
+.product-content-block {
+    margin-left: 4%;
+    margin-top: 1%;
+}
+
+.pagination-block.text-center {
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+
+span.pagination-number {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+span.pagination-number.current-page {
+    font-size: 36px;
+    margin: 0 1%;
+    font-weight: 600;
+}
+
+section.category-view-email-subscribe-block {
+    margin-top: 8%;
+    margin-bottom: 4.5%;
+}
+
+img.img-fluid.product-detailed-image {
+    max-width: 87%;
+}
+
+.product-view-image-list-block {
+    margin-top: 4px;
+}
+
+.product-view-image-block {
+    margin-top: 2%;
+}
+
+.each-image-block img {
+    max-width: 40%;
+}
+
+.each-image-block {
+    margin-top: 5.5%;
+}
+
+.each-image-block:first-child {
+    margin-top: 0;
+}
+
+h2.product-title {
+    font-size: 38px;
+    color: #2E2E2E;
+}
+
+.strikethrough-diagonal {
+    position: relative;
+    color: #9c9c9c;
+    font-weight: bold;
+    font-size: 14px;
+    opacity: 0.75;
+}
+
+.strikethrough-diagonal:before {
+    position: absolute;
+    content: "";
+    left: -8px;
+    top: 57%;
+    width: 76px;
+    right: 0;
+    border-top: 1px solid;
+    border-color: #FF0000;
+    -webkit-transform: skewY(-10deg);
+    -moz-transform: skewY(-10deg);
+    transform: skewY(-10deg);
+}
+
+p.discounted-price {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 2%;
+    color: #343434;
+}
+
+.product-sizes-block {
+    margin-top: 10%;
+}
+
+p.sizes-text {
+    color: #2E2E2E;
+    font-weight: 700;
+}
+
+span.sizes-block {
+    background: lightgray;
+    font-size: 11px;
+    padding: 2px 6px;
+    margin-left: 1.5%;
+}
+
+span.sizes-block.size-availabe {
+    background: #FFE600;
+}
+
+.product-action-button-block {
+    margin-top: 6%;
+}
+
+.product-action-button-block button {
+    color: #ffe600;
+    background: #2E2E2E;
+}
+
+button.btn.rounded-pill.product-action-button {
+    padding: 4px 20px;
+    width: 125px;
+}
+
+.product-delivery-and-exchange-information {
+    margin-top: 8%;
+    margin-left: 4%;
+}
+
+.product-delivery-and-exchange-information ul li {
+    margin-top: 2%;
+    font-weight: 500;
+}
+
+.shop-more-content-block {
+    background: #000;
+    max-width: 34%;
+    color: #fff;
+    margin-top: 6%;
+    border-radius: 0 45px 45px 0;
+}
+
+p.shop-more-content-text {
+    padding: 10px;
+    margin-left: 19%;
+}
+
+span.highlight-text {
+    font-weight: 600;
+}
+
+span.shop-more-content-normal-content {
+    font-weight: 300;
+}
+
+
+/* category view page css ends here */
